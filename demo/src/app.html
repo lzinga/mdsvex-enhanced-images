@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <link rel="icon" href="%sveltekit.assets%/favicon.png" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  %sveltekit.head%
+
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+    body {
+      margin: 0;
+      font-family: 'Helvetica Neue', Arial, sans-serif;
+      background-color: rgb(243, 244, 246);
+      color: #333;
+    }
+  
+    .container {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      padding: 2rem;
+    }
+          
+    header {
+      margin-bottom: 2rem;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 1rem;
+    }
+
+    picture {
+      display: block;
+      margin: 0;
+      padding: 0;
+      line-height: 0; /* Removes the blank block beneath the picture */
+    }
+
+    .content {
+	  margin: 12px;
+	  max-width: 800px;
+    }
+
+    pre {
+      overflow-x: auto; /* Adds horizontal scrollbar */
+      white-space: pre; /* Keeps the text formatting */
+      background-color: #f5f5f5;
+      padding: 1rem;
+      border-radius: 4px;
+      margin: 1rem 0; /* Adds margin to separate from other elements */
+      max-width: 100%; /* Ensures it doesn't stretch past the block width */
+    }
+
+    code {
+      font-family: 'Courier New', Courier, monospace;
+      display: block;
+      padding: 0.5rem;
+    }
+
+    .note {
+      font-size: 0.8rem;
+      color: #666;
+      margin-top: 1rem;
+    }
+
+    a {
+      text-decoration: none;
+      font-size: 2rem;
+    }
+  
+    footer {
+      margin-top: 2rem;
+      font-size: 0.8rem;
+      color: #666;
+    }
+
+    .block {
+      background-color: #fff; /* Main content background color */
+      box-shadow: rgba(0, 0, 0, 0);
+      border-radius: 6px;
+      width: 100%;
+      text-align: center;
+      padding: 6px;
+      overflow: hidden; /* Ensures content doesn't overflow */
+    }
+  
+    h1 {
+      text-align: center;
+    }
+  
+    p {
+      font-size: 1.2rem;
+      line-height: 1.6;
+    }
+
+    /* Media query for mobile screens */
+    @media (max-width: 600px) {
+      .grid {
+        grid-template-columns: 1fr; /* Change to 1 column */
+      }
+    }
+  </style>
+</head>
+<body data-sveltekit-preload-data="hover">
+  <div style="display: contents">%sveltekit.body%</div>
+</body>
+</html>

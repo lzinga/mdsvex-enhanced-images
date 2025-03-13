@@ -2,7 +2,7 @@
   "name": "@lzinga/mdsvex-enhanced-images",
   "version": "1.0.3",
   "description": "Replaces the markdown image with an enhanced:img from the @sveltejs/enhanced-img.",
-  "main": "index.js",
+  "main": "src/index.js",
   "scripts": {
     "test": "vitest"
   },
@@ -18,7 +18,7 @@
     "url": "https://github.com/lzinga/mdsvex-enhanced-images.git"
   },
   "author": "Lucas Elzinga",
-  "license": "ISC",
+  "license": "MIT",
   "peerDependencies": {
     "@sveltejs/enhanced-img": "^0.4.4",
     "mdsvex": "^0.12.3"
