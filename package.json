@@ -6,6 +6,9 @@
   "scripts": {
     "test": "vitest"
   },
+  "bugs":{
+    "url": "https://github.com/lzinga/mdsvex-enhanced-images/issues"
+  },
   "type": "module",
   "keywords": [
     "svelte",
@@ -17,7 +20,10 @@
     "type": "git",
     "url": "https://github.com/lzinga/mdsvex-enhanced-images.git"
   },
-  "author": "Lucas Elzinga",
+  "author": {
+    "name": "Lzinga",
+    "url": "https://github.com/lzinga"
+  },
   "license": "MIT",
   "peerDependencies": {
     "@sveltejs/enhanced-img": "^0.4.4",
