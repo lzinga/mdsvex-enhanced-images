@@ -1,3 +1,17 @@
+> ## Project Unmaintained
+>
+> **This project is no longer under active development.**
+>
+> Please use [**CollierCZ/markdoc-svelte**](https://github.com/CollierCZ/markdoc-svelte) — a maintained and feature‑rich Svelte preprocessor for Markdoc.
+>
+> For similar configuration or migration details, see:  
+> [Relative image paths · Issue #25 · CollierCZ/markdoc-svelte](https://github.com/CollierCZ/markdoc-svelte/issues/25)
+>
+> While I am not making direct changes myself anymore, **pull requests are welcome**, and I will continue to review and merge well‑formed contributions.
+
+
+
+
 <h1 align="center">mdsvex-enhanced-images</h1>
 <p align="center" style="text-decoration: none;">
 	<a href="https://github.com/lzinga/mdsvex-enhanced-images/actions/workflows/main.yml"><img src="https://github.com/lzinga/mdsvex-enhanced-images/actions/workflows/main.yml/badge.svg" alt="main"></a>
